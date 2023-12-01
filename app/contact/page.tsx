@@ -9,6 +9,8 @@ import media from "styled-media-query";
 
 const ContactArea = styled.main`
     padding: calc(100vh / 8) calc(100vw / 8);
+    min-height: calc(100vh - 40px);
+
     h3 {
         font-size: 3.6rem;
         font-weight: 600;
