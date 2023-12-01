@@ -10,17 +10,15 @@ import media from "styled-media-query";
 const ContactArea = styled.main`
     padding: calc(100vh / 8) calc(100vw / 8);
     h3 {
-        font-size: 3.0rem;
+        font-size: 3.6rem;
         font-weight: 600;
-        letter-spacing: 1.6px;
-        margin: 120px 0 12px 0;
-        // margin-bottom: 12px;
-        // display:inline-block;
+        letter-spacing: 1.8px;
+        margin: 120px 0 20px 0;
     }
     p {
-        font-size: 1.4rem;
-        line-height: 2.1rem;
-        margin-bottom: 36px;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin-bottom: 40px;
     }
     ${media.lessThan("medium")`
         padding: 24px;
@@ -38,29 +36,29 @@ const ContactArea = styled.main`
 const FromArea = styled.form`
     label {
         font-family: 'Outfit', sans-serif;
-        font-size: 1.8rem;
+        font-size: 2.4rem;
         letter-spacing: 1px;
     }
     input, textarea {
         width: 100%;
         background-color: #EEEEEE;
-        padding: 10px 12px;
-        font-size: 1.6rem;
-        margin: 8px 0 24px 0;
+        padding: 12px 16px;
+        font-size: 2.0rem;
+        margin: 10px 0 30px 0;
     }
     input {
-        height: 50px;
-        line-height: 30px;
+        height: 64px;
+        line-height: 40px;
     }
     textarea {
         height: 300px;
-        line-height: 2.4rem;
+        line-height: 3.0rem;
     }
     button {
         background-color: #E94709;
         color: #FFF;
-        font-size: 1.4rem;
-        padding: 10px 72px;
+        font-size: 1.8rem;
+        padding: 12px 72px;
         border-radius: 30px;
         letter-spacing: 12px;
         text-indent: 12px;

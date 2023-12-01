@@ -3,8 +3,8 @@ import styled, { css } from 'styled-components';
 import media from "styled-media-query";
 
 const HeaderArea = styled.header<{ active: number }>`
-    font-size: 2.0rem;
-    letter-spacing: 0.2rem;
+    font-size: 2.4rem;
+    letter-spacing: 0.3rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 500;
     top: calc(100vh / 8);
@@ -33,7 +33,7 @@ const HeaderArea = styled.header<{ active: number }>`
             border-radius: 8px;
             background-color: #e94709;
             position: absolute;
-            bottom: -10px;
+            bottom: -12px;
             left: 50%;
             transform: translateX(-50%);
             -webkit-transform: translateX(-50%);

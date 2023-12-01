@@ -11,15 +11,15 @@ const AboutArea = styled.main`
     flex-direction: column;
     justify-content: space-between;
     h1 {
-        font-size: 4.2rem;
+        font-size: 4.8rem;
         font-weight: 600;
-        letter-spacing: 4.8px;
+        letter-spacing: 5px;
         position: relative;
         margin-bottom: 24px;
     }
     p {
-        font-size: 1.4rem;
-        line-height: 2.1rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
     }
 
     ${media.lessThan("medium")`

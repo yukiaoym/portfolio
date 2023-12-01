@@ -40,21 +40,21 @@ const WorksArea = styled.div`
         margin-top: auto;
     }
     ul li div h3 {
-        font-size: 3.0rem;
+        font-size: 3.6rem;
         letter-spacing: 1.6px;
         margin-bottom: 12px;
     }
     ul li div p {
-        font-size: 1.4rem;
-        line-height: 2.1rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
         margin-bottom: 12px;
     }
     ul li div span {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         display: inline-block;
         color: #FFF;
         background-color: #E94709;
-        padding: 3px 12px;
+        padding: 4px 16px;
     }
 
     ${media.lessThan("medium")`

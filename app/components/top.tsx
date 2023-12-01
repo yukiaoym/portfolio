@@ -10,16 +10,16 @@ const TopArea = styled.div`
     display: flex;
     align-items: flex-end;
     h1 {
-        font-size: 4.2rem;
+        font-size: 4.8rem;
         font-weight: 600;
-        letter-spacing: 4.8px;
+        letter-spacing: 5px;
         position: relative;
-        margin-bottom: 36px;
+        margin-bottom: 40px;
     }
     h1:after {
         content: "";
-        width: 60px;
-        height: 7.2px;
+        width: 72px;
+        height: 8px;
         border-radius: 8px;
         background-color: #E94709;
         position: absolute;
@@ -27,10 +27,10 @@ const TopArea = styled.div`
         left: 0;
     }
     p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         font-weight: 300;
-        line-height: 2.1rem;
-        margin-bottom: 8px;
+        line-height: 2.7rem;
+        margin-bottom: 12px;
         letter-spacing: 1.2px;
     }
 
@@ -71,7 +71,7 @@ const generateAnimatedText = (text: string, isHTML: boolean = false, start: numb
             <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: index * 0.05 + start}}
+            transition={{ duration: 0.4, delay: index * 0.05 + start}}
             key={index}
             >
             {word}
@@ -81,7 +81,7 @@ const generateAnimatedText = (text: string, isHTML: boolean = false, start: numb
 };
 
 const TopImage = styled.img`
-    width: 72px;
+    width: 88px;
     animation: fadeIn 1s ease-out 4s forwards;
     opacity: 0;
     visibility: hidden;
@@ -91,6 +91,9 @@ const TopImage = styled.img`
           visibility: visible;
         }
     }
+    ${media.lessThan("medium")`
+        width: 72px;
+    `}
 `
 export default function Top() {
     return (
