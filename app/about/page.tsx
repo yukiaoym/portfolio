@@ -129,7 +129,7 @@ export default function About() {
                     カスタマーサポート業務において、UIが良ければ問い合わせは来ない！ということを
                     ひしひしと実感し、Web・UIデザインの世界に興味を持つ。<br />
                     目指すのは、ユーザ目線でストレスのないデザイン。<br />
-                    Webサイト制作の他、Zendeskやkintoneの構築、ほげほげほげほげほげほげほげほげほげほげ、お気軽にご相談ください。
+                    Webサイト制作の他、Zendeskやkintoneの構築等の経験もございますので、お気軽にご相談ください。
                 </p>
             </ProfileExp>
         </AboutArea>
