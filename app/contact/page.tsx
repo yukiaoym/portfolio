@@ -21,6 +21,7 @@ const ContactArea = styled.main`
         font-size: 1.6rem;
         line-height: 2.4rem;
         margin-bottom: 40px;
+        font-weight: 200;
     }
     ${media.lessThan("medium")`
         padding: 24px;
