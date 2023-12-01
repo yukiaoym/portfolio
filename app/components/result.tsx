@@ -8,25 +8,25 @@ const ContactArea = styled.main`
     padding: calc(100vh / 8) calc(100vw / 8);
     height: 100vh;
     h3 {
-        font-size: 3.0rem;
+        font-size: 3.6rem;
         font-weight: 600;
-        letter-spacing: 1.6px;
-        margin: 120px 0 36px 0;
+        letter-spacing: 1.8px;
+        margin: 120px 0 40px 0;
         position: relative;
     }
     p {
-        font-size: 1.4rem;
-        line-height: 2.1rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
         margin-bottom: 36px;
     }
     h3:after {
         content: "";
-        width: 60px;
-        height: 7.2px;
+        width: 72px;
+        height: 8px;
         border-radius: 8px;
         background-color: #E94709;
         position: absolute;
-        bottom: -22px;
+        bottom: -24px;
         left: 0;
     }
 
