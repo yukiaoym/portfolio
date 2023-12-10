@@ -108,23 +108,6 @@ const SiteImage = styled.a`
     width: 100%;
     background-color: gray;
 
-    &.animate {
-        animation-name:fadeUpAnime;
-        animation-duration:1s;
-        animation-fill-mode:forwards;
-        opacity:0;
-    }
-    @keyframes fadeUpAnime{
-        from {
-            opacity: 0;
-            transform: translateY(60px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
     img {
         width: 100%;
         border: 2px solid #000;
@@ -143,6 +126,22 @@ const SiteImage = styled.a`
     ${media.greaterThan("large")`
         width: 48%;
         margin-bottom: 0;
+        &.animate {
+            animation-name:fadeUpAnime;
+            animation-duration:1s;
+            animation-fill-mode:forwards;
+            opacity:0;
+        }
+        @keyframes fadeUpAnime{
+            from {
+                opacity: 0;
+                transform: translateY(60px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     `}
 `
 
