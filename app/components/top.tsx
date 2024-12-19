@@ -10,11 +10,11 @@ const TopArea = styled.div`
     display: flex;
     align-items: flex-end;
     h1 {
-        font-size: 4.8rem;
+        font-size: 6.0rem;
         font-weight: 600;
-        letter-spacing: 5px;
+        letter-spacing: 6px;
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 64px;
     }
     h1:after {
         content: "";
@@ -23,11 +23,11 @@ const TopArea = styled.div`
         border-radius: 8px;
         background-color: #E94709;
         position: absolute;
-        bottom: -22px;
+        bottom: -32px;
         left: 0;
     }
     p {
-        font-size: 1.8rem;
+        font-size: 2.0rem;
         font-weight: 300;
         line-height: 2.7rem;
         margin-bottom: 12px;
@@ -81,7 +81,7 @@ const generateAnimatedText = (text: string, isHTML: boolean = false, start: numb
 };
 
 const TopImage = styled.img`
-    width: 88px;
+    width: 100px;
     animation: fadeIn 1s ease-out 4s forwards;
     opacity: 0;
     visibility: hidden;

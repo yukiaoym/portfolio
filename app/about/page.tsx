@@ -55,7 +55,7 @@ const ProfileImage = styled.div`
     height: 100%;
     background-image: url('/images/profile.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     position: relative;
     animation: fadeIn 2s ease-out forwards;
@@ -78,17 +78,17 @@ const ProfileImage = styled.div`
         top: 0;
         z-index: 2;
     }
-    &:before {
-        width: 60%;
-        height: 36px;
-        height: calc(100% / 12);
-        content: "";
-        background-color: #E94709;
-        position: absolute;
-        bottom: 25%;
-        right: 0;
-        z-index: 3;
-    }
+    // &:before {
+    //     width: 60%;
+    //     height: 36px;
+    //     height: calc(100% / 12);
+    //     content: "";
+    //     background-color: #E94709;
+    //     position: absolute;
+    //     bottom: 25%;
+    //     right: 0;
+    //     z-index: 3;
+    // }
 
     ${media.lessThan("medium")`
         height: 50vh;
@@ -123,7 +123,7 @@ export default function About() {
                 <h1>Yuki Mishina</h1>
                 <p>
                     1992年北海道生まれ。1児の母。<br />
-                    出産を機に新卒から9年間勤めた会社を退職し、現在は、フリーランスの在宅Webデザイナー・IT系何でも屋さんとして活動。<br />
+                    出産を機に新卒から9年間勤めた会社を退職し、現在は、フリーランスの在宅Webデザイナーとして活動。<br />
                     <br />
                     会社員時代は、新卒から9年間IT企業のテクニカルサポートに従事。<br />
                     カスタマーサポート業務において、UIが良ければ問い合わせは来ない！ということを
